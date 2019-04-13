@@ -1,12 +1,7 @@
-import React from 'react';
-import Link from "next/link";
+const Home = props => (
+  <div>
+    <h1>Homepage</h1>
+  </div>
+);
 
-const Home = () => {
-  return (
-    <div>
-      <h1>Homepage</h1>
-    </div>
-  );
-}
- 
 export default Home;
